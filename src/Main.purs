@@ -17,7 +17,4 @@ values = unfoldr gen 10
 
 main :: Effect Unit
 main = do
-  log "🍝"
-  log "Test Hello World"
-  log $ show [1,2,3]
   log $ show values
