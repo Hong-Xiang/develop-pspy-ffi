@@ -1,0 +1,135 @@
+[34m[info] [0mInstallation complete.[0m
+[34m[info] [0mBuild succeeded.[0m
+Codegen Python for Main
+Codegen Python for Data.Function
+Codegen Python for Control.Category
+Codegen Python for Control.Semigroupoid
+Codegen Python for Data.Boolean
+Codegen Python for Data.Ord
+Codegen Python for Data.Eq
+Codegen Python for Data.HeytingAlgebra
+Codegen Python for Data.Symbol
+Codegen Python for Data.Unit
+Codegen Python for Data.Show
+Codegen Python for Record.Unsafe
+Codegen Python for Type.Data.RowList
+Codegen Python for Type.Data.Row
+Codegen Python for Data.Void
+Codegen Python for Data.Ordering
+Codegen Python for Data.Semigroup
+Codegen Python for Data.Ring
+Codegen Python for Data.Semiring
+Codegen Python for Data.Maybe
+Codegen Python for Control.Alt
+Codegen Python for Data.Functor
+Codegen Python for Control.Alternative
+Codegen Python for Control.Applicative
+Codegen Python for Control.Apply
+Codegen Python for Control.Plus
+Codegen Python for Control.Bind
+Codegen Python for Control.Extend
+Codegen Python for Control.Monad
+Codegen Python for Control.MonadZero
+Codegen Python for Data.Bounded
+Codegen Python for Data.Functor.Invariant
+Codegen Python for Data.Monoid.Additive
+Codegen Python for Data.Monoid
+Codegen Python for Data.EuclideanRing
+Codegen Python for Data.BooleanAlgebra
+Codegen Python for Data.CommutativeRing
+Codegen Python for Prelude
+Codegen Python for Data.DivisionRing
+Codegen Python for Data.Field
+Codegen Python for Data.NaturalTransformation
+Codegen Python for Data.Monoid.Conj
+Codegen Python for Data.Monoid.Disj
+Codegen Python for Data.Monoid.Dual
+Codegen Python for Data.Monoid.Endo
+Codegen Python for Data.Monoid.Multiplicative
+Codegen Python for Data.Tuple
+Codegen Python for Control.Biapplicative
+Codegen Python for Control.Biapply
+Codegen Python for Data.Bifunctor
+Codegen Python for Control.Comonad
+Codegen Python for Control.Lazy
+Codegen Python for Data.Bifoldable
+Codegen Python for Data.Bifunctor.Clown
+Codegen Python for Data.Newtype
+Codegen Python for Data.Semigroup.First
+Codegen Python for Data.Semigroup.Last
+Codegen Python for Data.Bifunctor.Flip
+Codegen Python for Data.Bifunctor.Joker
+Codegen Python for Data.Bifunctor.Product
+Codegen Python for Data.Bifunctor.Wrap
+Codegen Python for Data.Foldable
+Codegen Python for Data.Maybe.First
+Codegen Python for Data.Maybe.Last
+Codegen Python for Data.Bitraversable
+Codegen Python for Data.Traversable
+Codegen Python for Data.Traversable.Accum
+Codegen Python for Data.Traversable.Accum.Internal
+Codegen Python for Data.Distributive
+Codegen Python for Data.Identity
+Codegen Python for Data.FoldableWithIndex
+Codegen Python for Data.FunctorWithIndex
+Codegen Python for Data.Semigroup.Foldable
+Codegen Python for Data.Ord.Max
+Codegen Python for Data.Ord.Min
+Codegen Python for Data.Semigroup.Traversable
+Codegen Python for Data.TraversableWithIndex
+Codegen Python for Type.Equality
+Codegen Python for Data.Unfoldable
+Codegen Python for Data.Unfoldable1
+Codegen Python for Partial.Unsafe
+Codegen Python for Partial
+Codegen Python for Effect
+Codegen Python for Effect.Console
+Traceback (most recent call last):
+  File "/home/xiang/anaconda3/envs/pspy/bin/pspy", line 11, in <module>
+    load_entry_point('purescripto==0.8.2', 'console_scripts', 'pspy')()
+  File "/home/xiang/anaconda3/envs/pspy/lib/python3.8/site-packages/purescripto-0.8.2-py3.8.egg/purescripto/pspy.py", line 6, in main
+    wisepy2.wise(pspy)()
+  File "/home/xiang/anaconda3/envs/pspy/lib/python3.8/site-packages/wisepy2-1.1.1-py3.8.egg/wisepy2.py", line 117, in parse_arg
+    return fn(*args, **kwargs)
+  File "/home/xiang/anaconda3/envs/pspy/lib/python3.8/site-packages/purescripto-0.8.2-py3.8.egg/purescripto/configure.py", line 191, in pspy
+    mod = import_module("{}.{}.pure".format(conf.PyPack, conf.EntryModule))
+  File "/home/xiang/anaconda3/envs/pspy/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/xiang/projects/test-pspy/test_pspy/Main/pure.py", line 3, in <module>
+    __ps__ = LoadPureScript(__file__, __name__)
+  File "/home/xiang/anaconda3/envs/pspy/lib/python3.8/site-packages/purescripto-0.8.2-py3.8.egg/purescripto/purescript_loader.py", line 45, in LoadPureScript
+    exec(code, man_made_globals)
+  File "src/Main.purs", line 1, in test_pspy.Main.pure$
+    module Main where
+  File "/home/xiang/anaconda3/envs/pspy/lib/python3.8/site-packages/purescripto-0.8.2-py3.8.egg/purescripto/rts.py", line 41, in _import_module_to_dict
+    return import_from_path(m, loc).__dict__
+  File "/home/xiang/anaconda3/envs/pspy/lib/python3.8/site-packages/purescripto-0.8.2-py3.8.egg/purescripto/utilities.py", line 11, in import_from_path
+    spec.loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/xiang/projects/test-pspy/test_pspy/Data/Unfoldable/pure.py", line 3, in <module>
+    __ps__ = LoadPureScript(__file__, __name__)
+  File "/home/xiang/anaconda3/envs/pspy/lib/python3.8/site-packages/purescripto-0.8.2-py3.8.egg/purescripto/purescript_loader.py", line 45, in LoadPureScript
+    exec(code, man_made_globals)
+  File ".spago/unfoldable/v4.1.0/src/Data/Unfoldable.purs", line 1, in test_pspy.Data.Unfoldable.pure$
+    -- | This module provides a type class for _unfoldable functors_, i.e.
+  File "/home/xiang/anaconda3/envs/pspy/lib/python3.8/site-packages/purescripto-0.8.2-py3.8.egg/purescripto/rts.py", line 41, in _import_module_to_dict
+    return import_from_path(m, loc).__dict__
+  File "/home/xiang/anaconda3/envs/pspy/lib/python3.8/site-packages/purescripto-0.8.2-py3.8.egg/purescripto/utilities.py", line 11, in import_from_path
+    spec.loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/xiang/projects/test-pspy/test_pspy/Data/Unfoldable1/pure.py", line 3, in <module>
+    __ps__ = LoadPureScript(__file__, __name__)
+  File "/home/xiang/anaconda3/envs/pspy/lib/python3.8/site-packages/purescripto-0.8.2-py3.8.egg/purescripto/purescript_loader.py", line 45, in LoadPureScript
+    exec(code, man_made_globals)
+  File ".spago/unfoldable/v4.1.0/src/Data/Unfoldable1.purs", line 1, in test_pspy.Data.Unfoldable1.pure$
+    module Data.Unfoldable1
+TypeError: 'NoneType' object is not callable
+[31m[error] [0mRunning failed; Backend "pspy" exited with error:1[0m
